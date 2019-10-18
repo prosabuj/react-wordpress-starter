@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         </Link>
       </nav>
       <hr></hr>
-      <main className="main">{children}</main>
+      <main>{children}</main>
       <footer>
         <hr></hr>
         <p style={{ textAlign: "center" }}>Powered by Wordpress</p>

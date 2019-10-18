@@ -13,9 +13,16 @@ const About = () => {
             aliquip ex ea commodo consequat.
           </p>
           <hr />
-          <h3 className="font-weight-normal">Version: 1.0.0</h3>
           <p>Created by ♥ Sabuj Ali</p>
         </div>
+        <button type="button" className="btn btn-outline-info">
+          <a
+            href="https://github.com/prosabuj/react-wordpress-starter"
+            target="__blank"
+          >
+            Project Source
+          </a>
+        </button>
       </div>
     </div>
   );
